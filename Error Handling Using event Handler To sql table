@@ -1,0 +1,10 @@
+" insert into Error_logs values(
+   '"+ @[System::MachineName] +"'
+   ,'"+ @[System::PackageName] +"'
+   ,'"+ @[System::TaskName] +"'
+   ,'"+ (DT_STR, 20,1252)  @[System::ErrorCode] +"'
+   ,'"+ @[System::ErrorDescription] +"'
+   , GETDATE() 
+   )"
+   
+    insert into Error_logs values('NAG-PC'   ,'Error_handeling_Table_log'   ,'Execute SQL Task'   ,'0'   ,''   , GETDATE()    )
