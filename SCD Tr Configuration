@@ -1,0 +1,12 @@
+SCD Transformation Configuration
+ 
+1) select a Dimension table and keys
+2) Slowly changing dimension columns
+                        Fixed Attribute
+                        Changing Attribute
+                         Historical Attribute
+3) Fixed and Changing Attribute Options
+4) Historical Attribute Options
+                              Flag
+                              Start date and end date
+5) Inferred Dimension members
